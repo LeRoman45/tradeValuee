@@ -33,7 +33,7 @@ def check_trade():
     usdt=value_usdt.text()
     usdt=int(usdt)*42
     grn=QMessageBox()
-    grn.setText("Твої гривні",str(usdt))
+    grn.setText("Твої гривні"+str(usdt))
     
     grn.show()
     grn.exec_()
